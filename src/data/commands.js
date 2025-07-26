@@ -15,7 +15,11 @@ Type any command to get started!`
   },
   welcome: {
     description: 'Display welcome message',
-    output: `
+    output: () => {
+      const width = window.innerWidth;
+
+      if (width > 768) {
+        return `
 ███╗   ██╗      ██╗   █████╗  ██╗    ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗  
 ████╗  ██║      ██║  ██╔══██╗ ██║    ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║
 ██╔██╗ ██║      ██║  ███████║ ██║       ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║
@@ -26,7 +30,17 @@ Type any command to get started!`
 <span style="color: #10b981;">Welcome to NJAI terminal!</span>
 <span style="color: #c9d1d9;">Version 1.03.17</span>
 
-Type <span style="color: #facc15;">'help'</span> to see available commands.`
+Type <span style="color: #facc15;">'help'</span> to see available commands.`;
+      } else {
+        return `
+<span style="color: #10b981;">👋 Welcome to NJAI terminal!</span>
+<span style="color: #c9d1d9;">Version 1.03.17</span>
+
+For full experience, use a wider screen.
+
+Type <span style="color: #facc15;">'help'</span> to explore commands.`;
+      }
+    }
   },
   about: {
     description: 'Learn more about me',
