@@ -15,7 +15,7 @@ const Terminal = () => {
 
   useEffect(() => {
     if (showWelcome) {
-      setHistory([{ command: 'welcome', output: commands.welcome.output }]);
+      setHistory([{ command: 'welcome', output: commands.welcome.output() }]);
       setShowWelcome(false);
     }
   }, [showWelcome]);
@@ -39,7 +39,8 @@ const Terminal = () => {
     const newEntry = { command: cmd, output: '' };
 
     if (commands[trimmedCmd]) {
-      newEntry.output = commands[trimmedCmd].output;
+      const output = commands[trimmedCmd].output;
+      newEntry.output = typeof output === 'function' ? output() : output;
     } else if (trimmedCmd === '') {
       newEntry.output = '';
     } else {

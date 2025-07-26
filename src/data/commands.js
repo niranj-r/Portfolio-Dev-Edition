@@ -28,12 +28,14 @@ Type any command to get started!`
 ╚═╝  ╚═══╝  ╚════╝   ╚═╝  ╚═╝ ╚═╝       ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚══╝  ╚═╝╚═════╝
 
 <span style="color: #10b981;">Welcome to NJAI terminal!</span>
+<span style="color: #acffe3ff;">Niranj's Portfolio!</span>
 <span style="color: #c9d1d9;">Version 1.03.17</span>
 
 Type <span style="color: #facc15;">'help'</span> to see available commands.`;
       } else {
         return `
 <span style="color: #10b981;">👋 Welcome to NJAI terminal!</span>
+<span style="color: #acffe3ff;">Niranj's Portfolio!</span>
 <span style="color: #c9d1d9;">Version 1.03.17</span>
 
 For full experience, use a wider screen.
