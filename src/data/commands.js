@@ -134,17 +134,15 @@ Figma, Adobe XD, Photoshop, UI/UX Design Principles
     output: `<span style="color: #10b981; font-weight: bold;">Resume</span>
 
 <span style="color: #facc15;">Download:</span>
-<a href="/Resume.pdf" download style="color: #f97316; text-decoration: none;">
-  → niranj-r/resume.pdf
-</a>
-
+<a href="/Resume.pdf" download style="color: #f97316; text-decoration: none;">  → niranj-r/resume.pdf </a>
 
 <span style="color: #facc15;">Quick Overview:</span>
-• 5+ years of full-stack development experience
-• Led development of 3 major web applications
-• Contributed to 15+ open source projects
-• Experienced in agile methodologies
-• Strong problem-solving and communication skills
+• 2+ years of experience in UI/UX design and front-end development
+• Led design and development of 10+ major student/community projects
+• Designed interfaces for multiple real-world applications
+• Skilled in Figma, React, HTML, CSS, JavaScript, and Python
+• Strong leadership, creative thinking, and communication skills
+• Active contributor to student tech communities and design events
 
 <span style="color: #c9d1d9;">For detailed experience and education, please download the PDF above.</span>`
   }
