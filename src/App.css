@@ -343,6 +343,7 @@ body {
   .terminal-content {
     padding: 10px;
     font-size: 12px;
+    max-height: 75vh;
   }
 
   .profile-sidebar {
