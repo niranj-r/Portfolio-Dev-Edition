@@ -122,10 +122,10 @@ Figma, Adobe XD, Photoshop, UI/UX Design Principles
 <span style="color: #f97316;">→ linkedin.com/in/niranj-r</span>
 
 <span style="color: #facc15;">Email:</span>
-<span style="color: #f97316;">→ niranj.developer@email.com</span>
+<span style="color: #f97316;">→ niranj.njai@gmail.com</span>
 
 <span style="color: #facc15;">Portfolio:</span>
-<span style="color: #f97316;">→ niranj-r.dev</span>
+<span style="color: #f97316;">→ njdev.vercel.app</span>
 
 <span style="color: #c9d1d9;">Feel free to reach out for collaboration or just to say hi!</span>`
   },
