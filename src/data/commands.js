@@ -134,7 +134,10 @@ Figma, Adobe XD, Photoshop, UI/UX Design Principles
     output: `<span style="color: #10b981; font-weight: bold;">Resume</span>
 
 <span style="color: #facc15;">Download:</span>
-<span style="color: #f97316;">→ niranj-r.dev/resume.pdf</span>
+<a href="/Resume.pdf" download style="color: #f97316; text-decoration: none;">
+  → niranj-r/resume.pdf
+</a>
+
 
 <span style="color: #facc15;">Quick Overview:</span>
 • 5+ years of full-stack development experience
