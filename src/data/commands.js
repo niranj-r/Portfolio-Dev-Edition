@@ -48,19 +48,22 @@ Type <span style="color: #facc15;">'help'</span> to explore commands.`;
     description: 'Learn more about me',
     output: `<span style="color: #10b981; font-weight: bold;">About Me</span>
 
-Hi! I'm <span style="color: #facc15;">Niranj</span>, a passionate Full Stack Developer based in San Francisco, CA.
+Hi! I'm <span style="color: #facc15;">Niranj</span>, a passionate UI/UX designer and developer who loves creating seamless and impactful digital experiences. With a strong foundation in design, front-end development, and user-centered thinking, I specialize in crafting intuitive interfaces that balance aesthetics with functionality.
 
-I love building digital experiences that make a difference. My journey in tech started 5 years ago, and I've been fascinated by the intersection of design and functionality ever since.
+Currently exploring the intersections of design, technology, and user behavior, I enjoy turning ideas into meaningful products that solve real-world problems.
 
 <span style="color: #f97316;">Interests:</span>
-• Web Development & Modern JavaScript
-• UI/UX Design & User Experience
+• UI/UX Design & Prototyping
+• Front-End Development
+• Creative Coding
+• AI & Design Efficiency
+• Community-Driven Design
 • Open Source Contributions
 • Machine Learning & AI
-• Coffee and good music ☕🎵
+• Branding & Identity Design
 
 <span style="color: #f97316;">Current Focus:</span>
-Building scalable web applications with React, Node.js, and cloud technologies.`
+Building and designing modern, user-first web interfaces and contributing to collaborative, design-led projects.`
   },
   projects: {
     description: 'View my projects',
